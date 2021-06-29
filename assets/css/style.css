@@ -460,7 +460,48 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+a.mainbtn {
+  
+  margin-left: 25px;
+  background: #1977cc;
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
 
+a.mainbtn:hover {
+  background: #166ab5;
+  color: #fff;
+}
+a.mainbtn2 {
+  
+  margin-left: 25px;
+  background: #d11610;
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+
+a.mainbtn2:hover {
+  background: #cc4625;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  a.mainbtn {
+    
+    margin: 0 15px 0 0;
+    padding: 6px 18px;
+  }
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
