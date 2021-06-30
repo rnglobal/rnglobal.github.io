@@ -460,9 +460,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
-a.mainbtn {
-  
-  margin-left: 25px;
+ a.mainbtn {
   background: #1977cc;
   color: #fff;
   border-radius: 50px;
@@ -1838,4 +1836,10 @@ section {
   background: #1c84e3;
   color: #fff;
   text-decoration: none;
+}
+/* Custom Styles */
+.cicon{
+  font-weight: 500;
+  font-size: 3rem;
+  
 }
